@@ -2,5 +2,7 @@
   "_cts": {
     "header": {}
   },
-  "slices": {}
+  "slices": {
+    "Solution": {}
+  }
 }

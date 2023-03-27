@@ -17,9 +17,13 @@ module.exports = {
           50: '#560039'
         }
       },
-      height : {
-        43 : '43rem'
+      height: {
+        43: '44rem'
+      },
+        padding: {
+        '17-top': '4.5rem'
       }
+
     }
   },
   variants: {

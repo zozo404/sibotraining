@@ -30,7 +30,23 @@ interface HeaderDocumentData {
      *
      */
     title: prismicT.RichTextField;
+    /**
+     * Slice Zone field in *header*
+     *
+     * - **Field Type**: Slice Zone
+     * - **Placeholder**: *None*
+     * - **API ID Path**: header.slices[]
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+     *
+     */
+    slices: prismicT.SliceZone<HeaderDocumentDataSlicesSlice>;
 }
+/**
+ * Slice for *header → Slice Zone*
+ *
+ */
+type HeaderDocumentDataSlicesSlice = SolutionSlice;
 /**
  * header document from Prismic
  *
@@ -42,11 +58,126 @@ interface HeaderDocumentData {
  */
 export type HeaderDocument<Lang extends string = string> = prismicT.PrismicDocumentWithoutUID<Simplify<HeaderDocumentData>, "header", Lang>;
 export type AllDocumentTypes = HeaderDocument;
+/**
+ * Primary content in Solution → Primary
+ *
+ */
+interface SolutionSliceDefaultPrimary {
+    /**
+     * Title field in *Solution → Primary*
+     *
+     * - **Field Type**: Title
+     * - **Placeholder**: This is where it all begins...
+     * - **API ID Path**: solution.primary.title
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    title: prismicT.TitleField;
+    /**
+     * Description field in *Solution → Primary*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: A nice description of your product
+     * - **API ID Path**: solution.primary.description
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    description: prismicT.RichTextField;
+    /**
+     * Subtitle field in *Solution → Primary*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.primary.subtitle
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    subtitle: prismicT.KeyTextField;
+}
+/**
+ * Item in Solution → Items
+ *
+ */
+export interface SolutionSliceDefaultItem {
+    /**
+     * Features field in *Solution → Items*
+     *
+     * - **Field Type**: Image
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.items[].features
+     * - **Documentation**: https://prismic.io/docs/core-concepts/image
+     *
+     */
+    features: prismicT.ImageField<never>;
+    /**
+     * Icon field in *Solution → Items*
+     *
+     * - **Field Type**: Image
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.items[].icon
+     * - **Documentation**: https://prismic.io/docs/core-concepts/image
+     *
+     */
+    icon: prismicT.ImageField<never>;
+    /**
+     * Titles field in *Solution → Items*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.items[].titles
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    titles: prismicT.KeyTextField;
+    /**
+     * Descriptions field in *Solution → Items*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.items[].descriptions
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    descriptions: prismicT.RichTextField;
+    /**
+     * Button field in *Solution → Items*
+     *
+     * - **Field Type**: Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution.items[].button
+     * - **Documentation**: https://prismic.io/docs/core-concepts/key-text
+     *
+     */
+    button: prismicT.KeyTextField;
+}
+/**
+ * Default variation for Solution Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: `Solution`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type SolutionSliceDefault = prismicT.SharedSliceVariation<"default", Simplify<SolutionSliceDefaultPrimary>, Simplify<SolutionSliceDefaultItem>>;
+/**
+ * Slice variation for *Solution*
+ *
+ */
+type SolutionSliceVariation = SolutionSliceDefault;
+/**
+ * Solution Shared Slice
+ *
+ * - **API ID**: `solution`
+ * - **Description**: `Solution`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/reusing-slices
+ *
+ */
+export type SolutionSlice = prismicT.SharedSlice<"solution", SolutionSliceVariation>;
 declare module "@prismicio/client" {
     interface CreateClient {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { HeaderDocumentData, HeaderDocument, AllDocumentTypes };
+        export type { HeaderDocumentData, HeaderDocumentDataSlicesSlice, HeaderDocument, AllDocumentTypes, SolutionSliceDefaultPrimary, SolutionSliceDefaultItem, SolutionSliceDefault, SolutionSliceVariation, SolutionSlice };
     }
 }

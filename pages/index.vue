@@ -1,6 +1,7 @@
 <template>
   <div>
     <Content />
+    <Ressource />
   </div>
 </template>
 
