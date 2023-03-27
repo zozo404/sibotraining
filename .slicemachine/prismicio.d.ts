@@ -19,17 +19,6 @@ interface HeaderDocumentData {
      *
      */
     logo_sibo: prismicT.ImageField<never>;
-    /**
-     * Hamburger field in *header*
-     *
-     * - **Field Type**: Rich Text
-     * - **Placeholder**: *None*
-     * - **API ID Path**: header.hamburger
-     * - **Tab**: Main
-     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
-     *
-     */
-    hamburger: prismicT.RichTextField;
 }
 /**
  * header document from Prismic

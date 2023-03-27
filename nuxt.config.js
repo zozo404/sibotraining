@@ -19,7 +19,12 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-
+  script :[
+    {
+      src:'https://static.cdn.prismic.io/prismic.js?new=true&repo=sibotraining',
+      async: true,
+    }
+  ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
