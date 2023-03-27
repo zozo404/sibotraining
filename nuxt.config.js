@@ -1,4 +1,5 @@
 export default {
+  target:'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'sibotraining',
@@ -19,9 +20,19 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-
+  script :[
+    {
+      src:'https://static.cdn.prismic.io/prismic.js?new=true&repo=sibotraining',
+      async: true,
+    }
+  ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // font-awesome
+    {
+      src: '~/plugins/fontawesome.js',
+      ssr: false
+    }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -29,8 +40,14 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/prismic',
+    '@nuxt/image'
   ],
-
+  prismic: {
+    endpoint: 'https://sibotraining.cdn.prismic.io/api/v2',
+    modern: true
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
