@@ -1,0 +1,144 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "slowly"
+  },
+  "nom": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Deserunt elit voluptate commodo sint quis commodo pariatur aute reprehenderit excepteur ut. Occaecat enim cupidatat commodo quis adipisicing ad aliqua mollit est. Ex dolor in fugiat aliqua nisi amet ut ipsum."
+        }
+      }
+    ]
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "solution$efee82f6-ab4e-492f-896a-219ad6e394d8",
+        "name": "solution",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Engineer"
+                  }
+                }
+              ]
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Nisi ad mollit esse. Esse dolor excepteur tempor laboris. Tempor aliquip esse mollit."
+                  }
+                }
+              ]
+            },
+            "subtitle": {
+              "__TYPE__": "FieldContent",
+              "value": "breeze",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "features",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+                      "width": 3958,
+                      "height": 3958
+                    },
+                    "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb",
+                    "width": 3958,
+                    "height": 3958,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ],
+                [
+                  "icon",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72",
+                      "width": 4010,
+                      "height": 4010
+                    },
+                    "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72",
+                    "width": 4010,
+                    "height": 4010,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ],
+                [
+                  "titles",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "mood",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "descriptions",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Laboris do et nisi pariatur id qui veniam excepteur non ut fugiat consectetur. Dolor voluptate culpa enim aliquip sunt sint quis veniam laborum amet qui quis veniam. Reprehenderit nulla esse laborum est irure eu velit ut qui tempor laborum amet laboris."
+                        }
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "button",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "drawn",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

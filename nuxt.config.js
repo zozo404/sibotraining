@@ -1,3 +1,4 @@
+import smConfig from "./sm.json";
 export default {
   target:'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -44,15 +45,23 @@ export default {
     '@nuxtjs/prismic',
     '@nuxt/image'
   ],
+  image: {
+    provider: "prismic",
+    prismic: {}
+  },
   prismic: {
     endpoint: 'https://sibotraining.cdn.prismic.io/api/v2',
     modern: true
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ["@nuxtjs/prismic", {
+      endpoint: smConfig.apiEndpoint|| ""
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ["@prismicio/vue"]
   }
 }

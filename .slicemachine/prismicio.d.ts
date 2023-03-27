@@ -57,7 +57,47 @@ type HeaderDocumentDataSlicesSlice = SolutionSlice;
  * @typeParam Lang - Language API ID of the document.
  */
 export type HeaderDocument<Lang extends string = string> = prismicT.PrismicDocumentWithoutUID<Simplify<HeaderDocumentData>, "header", Lang>;
-export type AllDocumentTypes = HeaderDocument;
+/** Content for Solution content documents */
+interface SolutionContentDocumentData {
+    /**
+     * nom field in *Solution content*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution_content.nom
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    nom: prismicT.RichTextField;
+    /**
+     * Slice Zone field in *Solution content*
+     *
+     * - **Field Type**: Slice Zone
+     * - **Placeholder**: *None*
+     * - **API ID Path**: solution_content.slices[]
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/slices
+     *
+     */
+    slices: prismicT.SliceZone<SolutionContentDocumentDataSlicesSlice>;
+}
+/**
+ * Slice for *Solution content → Slice Zone*
+ *
+ */
+type SolutionContentDocumentDataSlicesSlice = SolutionSlice;
+/**
+ * Solution content document from Prismic
+ *
+ * - **API ID**: `solution_content`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/core-concepts/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type SolutionContentDocument<Lang extends string = string> = prismicT.PrismicDocumentWithUID<Simplify<SolutionContentDocumentData>, "solution_content", Lang>;
+export type AllDocumentTypes = HeaderDocument | SolutionContentDocument;
 /**
  * Primary content in Solution → Primary
  *
@@ -178,6 +218,6 @@ declare module "@prismicio/client" {
         (repositoryNameOrEndpoint: string, options?: prismic.ClientConfig): prismic.Client<AllDocumentTypes>;
     }
     namespace Content {
-        export type { HeaderDocumentData, HeaderDocumentDataSlicesSlice, HeaderDocument, AllDocumentTypes, SolutionSliceDefaultPrimary, SolutionSliceDefaultItem, SolutionSliceDefault, SolutionSliceVariation, SolutionSlice };
+        export type { HeaderDocumentData, HeaderDocumentDataSlicesSlice, HeaderDocument, SolutionContentDocumentData, SolutionContentDocumentDataSlicesSlice, SolutionContentDocument, AllDocumentTypes, SolutionSliceDefaultPrimary, SolutionSliceDefaultItem, SolutionSliceDefault, SolutionSliceVariation, SolutionSlice };
     }
 }
