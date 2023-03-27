@@ -16,6 +16,9 @@ module.exports = {
         velour: {
           50: '#560039'
         }
+      },
+      height : {
+        43 : '43rem'
       }
     }
   },

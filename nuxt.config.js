@@ -1,4 +1,5 @@
 export default {
+  target:'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'sibotraining',
@@ -40,7 +41,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/prismic'
+    '@nuxtjs/prismic',
+    '@nuxt/image'
   ],
   prismic: {
     endpoint: 'https://sibotraining.cdn.prismic.io/api/v2',

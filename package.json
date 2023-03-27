@@ -22,6 +22,7 @@
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/tailwindcss": "^6.6.4",
     "@prismicio/types": "^0.2.7",
     "slice-machine-ui": "^0.7.1"

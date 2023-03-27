@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class=" z-20 sticky top-0">
     <nav class="flex items-center bg-olive-50 justify-between p-6">
       <!-- add img with prismic -->
       <!-- <img :src="header.logo_sibo.url" alt="" /> -->
@@ -27,7 +27,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 py-5 font-bold w-5/6"
+          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 font-bold w-5/6"
         >
           Get in Touch
         </button>
