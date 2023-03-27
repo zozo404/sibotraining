@@ -27,6 +27,11 @@ export default {
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // font-awesome
+    {
+      src: '~/plugins/fontawesome.js',
+      ssr: false
+    }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -34,9 +39,13 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/prismic'
   ],
-
+  prismic: {
+    endpoint: 'https://sibotraining.cdn.prismic.io/api/v2',
+    modern: true
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],

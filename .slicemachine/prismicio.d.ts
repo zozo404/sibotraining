@@ -19,6 +19,17 @@ interface HeaderDocumentData {
      *
      */
     logo_sibo: prismicT.ImageField<never>;
+    /**
+     * title field in *header*
+     *
+     * - **Field Type**: Rich Text
+     * - **Placeholder**: *None*
+     * - **API ID Path**: header.title
+     * - **Tab**: Main
+     * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+     *
+     */
+    title: prismicT.RichTextField;
 }
 /**
  * header document from Prismic
