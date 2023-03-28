@@ -1,6 +1,6 @@
 import smConfig from "./sm.json";
 export default {
-  target:'static',
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'sibotraining',
@@ -21,9 +21,9 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-  script :[
+  script: [
     {
-      src:'https://static.cdn.prismic.io/prismic.js?new=true&repo=sibotraining',
+      src: 'https://static.cdn.prismic.io/prismic.js?new=true&repo=sibotraining',
       async: true,
     }
   ],
@@ -33,7 +33,7 @@ export default {
     {
       src: '~/plugins/fontawesome.js',
       ssr: false
-    }
+    },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,7 +56,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ["@nuxtjs/prismic", {
-      endpoint: smConfig.apiEndpoint|| ""
+      endpoint: smConfig.apiEndpoint || ""
     }]
   ],
 

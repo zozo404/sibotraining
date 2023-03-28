@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-96 px-6">
-    <div class="text-center pb-12">
+  <div class="mt-96 px-6">  
+    <div class="text-center pb-12 pt-8">
       <p class="text-velour-50 font-bold">The All-in-One</p>
       <h2 class="text-3xl">Solution for Rental Operators</h2>
       <p class="pt-4">
