@@ -68,6 +68,9 @@ export default {
 };
 </script>
 <style>
+.slick-list{
+  padding-bottom: 4rem!important;
+}
 .slick-dots li {
   margin: -3px;
 }
