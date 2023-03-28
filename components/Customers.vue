@@ -18,7 +18,7 @@
           <img
             :src="person.image"
             :alt="person.alt"
-            class="m-auto rounded-xl w-48"
+            class="m-auto rounded-xl w-44"
           />
           <p class="text-xl my-4">{{ person.name }}</p>
           <p class="text-lg text-gray-500 font-bold">
