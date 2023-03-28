@@ -2,7 +2,7 @@
   <div class="bg-olive-50 relative -top-px h-43">
     <div class="px-6 pt-8">
       <div class="text-white flex flex-col gap-4 pb-8">
-        <h1 class="font-bold text-4xl leading-10">
+        <h1 class="font-bold text-4xl leading-10 satoshi">
           Grow your rental business with us
         </h1>
         <h2 class="text-xl">
@@ -22,7 +22,7 @@
             <button
               type="button"
               onclick="window.location.href = '#';"
-              class="bg-gold-50 text-black-50 h-10 rounded-xl w-full hover:bg-black-50 hover:text-white transition"
+              class="bg-gold-50 text-black-50 h-10 rounded-xl w-full hover:bg-black-50 hover:text-white transition interBold"
             >
               Get in Touch
             </button>

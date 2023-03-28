@@ -1,17 +1,14 @@
 <template>
   <div class="mt-96 px-6">  
     <div class="text-center pb-12 pt-8">
-      <p class="text-velour-50 font-bold">The All-in-One</p>
-      <h2 class="text-3xl">Solution for Rental Operators</h2>
-      <p class="pt-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum
-        quasi fugiat ullam! Ab tempore molestias obcaecati. Beatae quaerat
-        voluptatem maxime asperiores repellendus quia eveniet tenetur ratione,
-        aliquid repudiandae unde?
+      <p class="text-velour-50 satoshi">The All-in-One</p>
+      <h2 class="text-3xl interBold">Solution for Rental Operators</h2>
+      <p class="pt-4 text-gray-25">
+        Whilst you are managing the behind the scenes seamlessly, growing your portfolio, setting prices, managing bookings and operations, your guests are smoothly guided through their pre-stay journey from your customised emails to their online check in.
       </p>
     </div>
     <!-- card -->
-    <div class="flex flex-col pb-12">
+    <div class="flex flex-col pb-16">
       <img src="../static/img/dashboard.PNG" alt="img" class="rounded-t-xl" />
       <div class="flex justify-center items-center gap-6">
         <img src="../static/img/logo0.PNG" alt="img" class="rounded-xl w-24" />
@@ -32,7 +29,7 @@
       </button>
     </div>
     <!-- card -->
-    <div class="flex flex-col pb-12">
+    <div class="flex flex-col pb-16">
       <img src="../static/img/branding.PNG" alt="img" class="rounded-t-xl" />
       <div class="flex justify-center items-center gap-6">
         <img
@@ -77,7 +74,7 @@
       </div>
     </div>
     <!-- card -->
-    <div class="flex flex-col pb-12">
+    <div class="flex flex-col pb-24">
       <img src="../static/img/dashboard.PNG" alt="img" class="rounded-t-xl" />
       <div class="flex justify-center items-center gap-6">
         <img src="../static/img/logo0.PNG" alt="img" class="rounded-xl w-32" />

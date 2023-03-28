@@ -25,7 +25,12 @@ module.exports = {
       },
       padding: {
         '17-top': '4.5rem'
-      }
+      },
+      fontFamily: {
+        interBold: ['InterBold', 'sans-serif'],
+        interRegular: ['InterRegular', 'serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
+      },
 
     }
   },

@@ -14,7 +14,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap", rel: "stylesheet"},
+      { href: "https://fonts.cdnfonts.com/css/satoshi?styles=135002", rel: "stylesheet"},
     ]
   },
 
