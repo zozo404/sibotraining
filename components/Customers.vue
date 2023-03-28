@@ -1,11 +1,8 @@
 <template>
   <div class="px-6 text-white bg-black-50 pb-16">
-    <h1 class="py-10 text-4xl">What our customers say about us</h1>
-    <i class="text-xl">
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit eos hic,
-      consectetur dolore accusantium delectus sunt commodi temporibus suscipit.
-      Molestiae soluta aspernatur ullam! Voluptatum consequuntur nostrum modi in
-      iste repellendus?"
+    <h1 class="py-10 text-3xl">What our customers say about us</h1>
+    <i class="text-xl interRegular300 tracking-wider leading-8">
+      "We love working with SIBO! It is very user friendly, for both us as a user and for guests that booking online! The company is always improving their systems and are a pleasure to work with!"
     </i>
     <!-- carousel -->
     <div class="pt-10">
@@ -42,6 +39,27 @@ export default {
     return {
       persons: [
         {
+          name: "Sara Shulman",
+          job: "Director of Operations",
+          image: "/img/people.png",
+          alt: "people 1",
+          country: "Israel",
+        },
+        {
+          name: "Jane Smith",
+          job: "Designer",
+          image: "img/people.png",
+          alt: "people 2",
+          country: "France",
+        },
+        {
+          name: "Jane Smith",
+          job: "Designer",
+          image: "img/people.png",
+          alt: "people 3",
+          country: "UK",
+        },
+         {
           name: "Sara Shulman",
           job: "Director of Operations",
           image: "/img/people.png",

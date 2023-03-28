@@ -1,9 +1,11 @@
 <template>
-  <header class=" z-20 sticky top-0">
+  <header class="z-20 sticky top-0">
     <nav class="flex items-center bg-olive-50 justify-between p-6">
       <!-- add img with prismic -->
       <!-- <img :src="header.logo_sibo.url" alt="" /> -->
-      <img src="../static/img/logo.png" alt="logo Sibo" />
+      <a href="/">
+        <img src="../static/img/logo.png" alt="logo Sibo" />
+      </a>
       <!-- btn navbar -->
       <div class="space-y-2 hover:cursor-pointer" @click="toggle">
         <i class="fa-solid fa-bars text-white h-7"></i>
@@ -17,7 +19,9 @@
       <div class="flex items-center bg-white justify-between p-6">
         <!-- add img with prismic -->
         <!-- <img :src="header.logo_sibo.url" alt="" /> -->
-        <img src="../static/img/logodark.png" alt="logo dark Sibo" />
+        <a href="/">
+          <img src="../static/img/logodark.png" alt="logo dark Sibo" />
+        </a>
         <!-- btn navbar -->
         <div class="space-y-2 hover:cursor-pointer" @click="toggle">
           <i class="fa-solid fa-xmark text-black-50 h-7" />
@@ -27,7 +31,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 font-bold w-5/6 hover:bg-black-50 hover:text-white transition"
+          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 w-5/6 hover:bg-black-50 hover:text-white transition interBold"
         >
           Get in Touch
         </button>

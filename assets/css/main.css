@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'InterBold';
+    src: url('/static/fonts/Inter-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'InterRegular';
+    src: url('/static/fonts/Inter-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/static/fonts/Satoshi-Bold.oft') format('oft');
+}
