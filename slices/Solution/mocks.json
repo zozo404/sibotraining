@@ -1,0 +1,120 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Seldom"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Do duis tempor quis cillum labore et labore do dolor."
+            }
+          }
+        ]
+      },
+      "subtitle": {
+        "__TYPE__": "FieldContent",
+        "value": "climate",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "features",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+                "width": 8640,
+                "height": 8640
+              },
+              "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+              "width": 8640,
+              "height": 8640,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ],
+          [
+            "icon",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+                "width": 12288,
+                "height": 16384
+              },
+              "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+              "width": 12288,
+              "height": 16384,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ],
+          [
+            "titles",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "word",
+              "type": "Text"
+            }
+          ],
+          [
+            "descriptions",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Aliqua est minim laboris nisi. Est Lorem pariatur nulla elit proident esse aliqua ea sit pariatur."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "button",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "numeral",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

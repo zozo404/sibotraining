@@ -15,11 +15,18 @@ module.exports = {
         },
         velour: {
           50: '#560039'
-        }
+        },
+        gray: {
+          25: '#434649'
+        },
       },
-      height : {
-        43 : '43rem'
+      height: {
+        43: '44rem'
+      },
+      padding: {
+        '17-top': '4.5rem'
       }
+
     }
   },
   variants: {

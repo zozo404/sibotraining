@@ -5,7 +5,7 @@
       <!-- <img :src="header.logo_sibo.url" alt="" /> -->
       <img src="../static/img/logo.png" alt="logo Sibo" />
       <!-- btn navbar -->
-      <div class="space-y-2" @click="toggle">
+      <div class="space-y-2 hover:cursor-pointer" @click="toggle">
         <i class="fa-solid fa-bars text-white h-7"></i>
       </div>
     </nav>
@@ -19,7 +19,7 @@
         <!-- <img :src="header.logo_sibo.url" alt="" /> -->
         <img src="../static/img/logodark.png" alt="logo dark Sibo" />
         <!-- btn navbar -->
-        <div class="space-y-2" @click="toggle">
+        <div class="space-y-2 hover:cursor-pointer" @click="toggle">
           <i class="fa-solid fa-xmark text-black-50 h-7" />
         </div>
       </div>
@@ -27,7 +27,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 font-bold w-5/6"
+          class="bg-gold-50 text-black-50 h-14 rounded-xl px-20 font-bold w-5/6 hover:bg-black-50 hover:text-white transition"
         >
           Get in Touch
         </button>

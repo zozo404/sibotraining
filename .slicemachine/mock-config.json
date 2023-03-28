@@ -1,6 +1,9 @@
 {
   "_cts": {
-    "header": {}
+    "header": {},
+    "solution_content": {}
   },
-  "slices": {}
+  "slices": {
+    "Solution": {}
+  }
 }

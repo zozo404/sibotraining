@@ -1,22 +1,21 @@
 {
-  "id": "header",
-  "label": "header",
+  "id": "solution_content",
+  "label": "Solution content",
   "repeatable": false,
   "status": true,
   "json": {
     "Main": {
-      "logo_sibo": {
-        "type": "Image",
+      "uid": {
+        "type": "UID",
         "config": {
-          "label": "Logo Sibo",
-          "constraint": {},
-          "thumbnails": []
+          "label": "solution content",
+          "placeholder": ""
         }
       },
-      "title": {
+      "nom": {
         "type": "StructuredText",
         "config": {
-          "label": "title",
+          "label": "nom",
           "placeholder": "",
           "allowTargetBlank": true,
           "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
