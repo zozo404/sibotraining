@@ -21,7 +21,16 @@ module.exports = {
         },
       },
       height: {
-        43: '44rem'
+        97: '26rem',
+        98: '36rem',
+        43: '44rem',
+        'littleMidScreen': '40vh',
+        'midScreen': '44vh'
+      },
+      width: {
+        97: '26rem',
+        98:'44rem',
+        99:'42rem'
       },
       padding: {
         '17-top': '4.5rem'
@@ -30,22 +39,21 @@ module.exports = {
         interBold: ['InterBold', 'sans-serif'],
         interRegular: ['InterRegular', 'serif'],
         satoshi: ['Satoshi', 'sans-serif'],
-      },
-
-    }
-  },
-  variants: {
-    extend: {}
-  },
-  plugins: [],
-  content: [
-    'components/**/*.{vue,js}',
-    'layouts/**/*.vue',
-    'pages/**/*.vue',
-    'static/**/*.html',
-    'composables/**/*.{js,ts}',
-    'plugins/**/*.{js,ts}',
-    'App.{js,ts,vue}',
-    'app.{js,ts,vue}'
-  ]
+      }
+    },
+    variants: {
+      extend: {}
+    },
+    plugins: [],
+    content: [
+      'components/**/*.{vue,js}',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'static/**/*.html',
+      'composables/**/*.{js,ts}',
+      'plugins/**/*.{js,ts}',
+      'App.{js,ts,vue}',
+      'app.{js,ts,vue}'
+    ]
+  }
 }
