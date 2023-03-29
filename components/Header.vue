@@ -39,7 +39,7 @@
         @mouseleave="toggle"
         @click="toggle"
         :class="{ hidden: isActive }"
-        class="max[1023px]:hidden relative z-0 lg:absolute lg:top-0 h-midScreen lg:z-40 bg-white rounded-b-xl"
+        class="max[1023px]:hidden absolute top-0 h-midScreen z-40 bg-white rounded-b-xl w-px overflow-hidden lg:w-auto lg:overflow-auto"
       >
         <div class="h-littleMidScreen rounded-b-xl shadow-lg">
           <div class="flex items-center max-lg:p-6 justify-around border-b-2">
@@ -112,7 +112,7 @@
     <!-- btn navbar mobile active -->
     <nav
       :class="{ hidden: isActive }"
-      class="lg:hidden w-screen sticky top-0 h-screen z-40 bg-white"
+      class="lg:hidden w-screen absolute top-0 h-screen z-40 bg-white"
     >
       <div class="flex items-center bg-white justify-between p-6">
         <!-- add img with prismic -->
