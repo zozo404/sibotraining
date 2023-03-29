@@ -21,7 +21,9 @@ module.exports = {
         },
       },
       height: {
-        43: '44rem'
+        43: '44rem',
+        'littleMidScreen': '40vh',
+        'midScreen': '44vh'
       },
       padding: {
         '17-top': '4.5rem'
