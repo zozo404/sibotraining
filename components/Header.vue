@@ -82,7 +82,7 @@
             </button>
           </div>
           <!-- sous parties -->
-          <div class="flex gap-12 px-12">
+          <div class="flex gap-12 px-12 pt-4">
             <!-- card -->
             <div
               v-for="(service, index) in services"
