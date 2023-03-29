@@ -11,7 +11,7 @@
           </h2>
         </div>
         <!-- card 1 desktop-->
-        <div class="bg-white py-7 px-6 rounded-xl hidden lg:block w-80 lg: relative top-12 z-10 lg:mr-4">
+        <div class="bg-white py-7 px-6 rounded-xl hidden lg:block lg:w-80 lg: relative top-12 z-10 lg:mr-4 ">
           <p class="text-base text-black-50">
             <b> Our platform was designed to innovate operations, </b>
             optimize and automate task management, communications, and resource
@@ -29,8 +29,8 @@
         </div>
       </div>
       <!-- all card -->
-      <div class="flex flex-col lg:flex-row lg:justify-center gap-8 lg:relative lg:bottom-8">
-        <!-- card 1-->
+      <div class="flex flex-col md:flex-row lg:flex-row lg:justify-center gap-8 lg:relative lg:bottom-8 items-center">
+        <!-- card 1 mobile-->
         <div class="bg-white py-7 px-6 rounded-xl lg:hidden">
           <p class="text-xl">
             <b> Our platform was designed to innovate operations, </b>

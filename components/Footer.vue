@@ -139,7 +139,7 @@
       <hr class="my-4 border border-gray-300 lg:hidden" />
 
       <!-- div logo -->
-      <div class="flex-grow">
+      <div class="flex-grow pb-4 lg:pb-0">
         <a href="/">
           <img
             src="../static/img/logowhite.png"

@@ -39,7 +39,7 @@
           onclick="window.location.href = '#';"
           class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl px-20 font-bold w-full bg-black-50 text-white transition self-center lg:px-0 lg:w-1/2 lg:self-auto"
         >
-          Discover our creations
+          Discover our PMS
         </button>
       </div>
     </div>
@@ -88,9 +88,9 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl px-20 font-bold w-full bg-black-50 text-white transition self-center lg:px-0 lg:w-1/2 lg:self-auto"
+          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold md:w-full bg-black-50 text-white transition self-center lg:px-0 lg:w-1/2 lg:self-auto w-3/4"
         >
-          Discover our PMS
+          Discover our creations
         </button>
       </div>
     </div>
@@ -135,7 +135,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl px-20 font-bold w-full bg-black-50 text-white transition self-center lg:px-0 lg:w-1/2 lg:self-auto"
+          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold md:w-full bg-black-50 text-white transition self-center lg:px-0 lg:w-1/2 lg:self-auto w-3/4"
         >
           Discover our support
         </button>

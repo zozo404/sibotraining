@@ -106,4 +106,9 @@ export default {
   font-size: 10px;
   color: white;
 }
+@media screen and (max-width: 768px) {
+  .slick-arrow{
+    display: none!important;
+  }
+}
 </style>
