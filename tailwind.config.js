@@ -28,7 +28,9 @@ module.exports = {
         'midScreen': '44vh'
       },
       width: {
-        97: '26rem'
+        97: '26rem',
+        98:'44rem',
+        99:'42rem'
       },
       padding: {
         '17-top': '4.5rem'
