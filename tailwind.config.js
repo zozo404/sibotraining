@@ -23,14 +23,18 @@ module.exports = {
       height: {
         97: '26rem',
         98: '36rem',
+        42: '42rem',
         43: '44rem',
         'littleMidScreen': '40vh',
-        'midScreen': '44vh'
+        'midScreen': '44vh',
+        'xl': '31rem'
       },
       width: {
         97: '26rem',
-        98:'44rem',
-        99:'42rem'
+        98: '44rem',
+        99: '42rem',
+        'xl': '31rem',
+        'custom':'46%'
       },
       padding: {
         '17-top': '4.5rem'

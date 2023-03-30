@@ -45,7 +45,7 @@
           <div class="flex items-center max-lg:p-6 justify-around border-b-2">
             <div @click="toggle" class="text-sm flex gap-3 text-black-50">
               <div
-                class="py-8 hover:border-b-2 hover:border-b-olive-50 transition hover:transition"
+                class="py-8 border-b-2 border-b-white hover:border-b-olive-50 transition hover:transition border-opacity-0 hover:border-opacity-100 delay-75"
               >
                 <nuxt-link to="#" class="flex items-center gap-4">
                   <p>Services</p>
@@ -53,14 +53,14 @@
                 </nuxt-link>
               </div>
               <div
-                class="py-8 hover:border-b-2 hover:border-b-olive-50 transition hover:transition"
+                class="py-8 border-b-2 border-b-white hover:border-b-olive-50 transition hover:transition border-opacity-0 hover:border-opacity-100 delay-75"
               >
                 <nuxt-link to="#">
                   <p>Pricing</p>
                 </nuxt-link>
               </div>
               <div
-                class="py-8 hover:border-b-2 hover:border-b-olive-50 transition hover:transition"
+                class="py-8 border-b-2 border-b-white hover:border-b-olive-50 transition hover:transition border-opacity-0 hover:border-opacity-100 delay-75"
               >
                 <nuxt-link to="#" class="flex items-center gap-2">
                   <p>Company</p>
