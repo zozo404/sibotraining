@@ -23,6 +23,7 @@ module.exports = {
       height: {
         97: '26rem',
         98: '36rem',
+        42: '42rem',
         43: '44rem',
         'littleMidScreen': '40vh',
         'midScreen': '44vh',

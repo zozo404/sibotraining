@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-96 px-6 lg:px-24 md:mt-36 lg:mt-60">
-    <div class="flex flex-col items-center text-center pb-12 pt-8 xl:pb-28 xl:pt-24">
+  <div class="mt-96 px-6 lg:px-24 md:mt-36 lg:mt-60 2xl:mt-96">
+    <div class="flex flex-col items-center text-center pb-12 pt-8 xl:pb-28 xl:pt-24 2xl:pt-32">
       <p class="text-velour-50 satoshi">The All-in-One</p>
       <h2 class="text-3xl interBold">Solution for Rental Operators</h2>
       <p class="pt-4 text-gray-25 lg:w-98">
@@ -88,7 +88,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold md:w-full bg-black-50 text-white transition self-center lg:px-0 md:w-1/2 lg:self-auto w-3/4"
+          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold bg-black-50 text-white transition self-center lg:px-0 md:w-1/2 lg:self-auto w-3/4"
         >
           Discover our creations
         </button>
@@ -135,7 +135,7 @@
         <button
           type="button"
           onclick="window.location.href = '#';"
-          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold md:w-full bg-black-50 text-white transition self-center lg:px-0 md:w-1/2 lg:self-auto w-3/4"
+          class="hover:bg-gold-50 hover:text-black-50 h-14 rounded-xl md:px-20 font-bold bg-black-50 text-white transition self-center lg:px-0 md:w-1/2 lg:self-auto w-3/4"
         >
           Discover our support
         </button>
