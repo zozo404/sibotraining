@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-olive-50 relative -top-px h-43 lg:h-98">
+  <div class="bg-olive-50 relative -top-px h-43 md:h-98">
     <div class=" px-6 lg:px-24 pt-8 lg:pt-20">
       <div class="text-white flex flex-col lg:flex-row gap-4 pb-8 lg:justify-around lg:pb-0 xl:justify-around">
         <div class="xl:relative xl:right-12">
@@ -29,9 +29,9 @@
         </div>
       </div>
       <!-- all card -->
-      <div class="flex flex-col md:flex-row lg:flex-row lg:justify-center gap-8 lg:relative lg:bottom-8 items-center">
+      <div class="flex flex-col flex-wrap lg:flex-nowrap md:flex-row md:justify-center gap-8 lg:relative lg:bottom-8 items-center">
         <!-- card 1 mobile-->
-        <div class="bg-white py-7 px-6 rounded-xl lg:hidden">
+        <div class="bg-white py-7 px-6 rounded-xl lg:hidden md:w-1/2">
           <p class="text-xl">
             <b> Our platform was designed to innovate operations, </b>
             optimize and automate task management, communications, and resource
@@ -48,16 +48,16 @@
           </div>
         </div>
         <!-- card 2 -->
-        <img src="../static/img/desk.jpg" alt="desk" class="rounded-xl h-64 lg:w-97 xl:w-xl lg:h-97 xl:h-xl" />
+        <img src="../static/img/desk.jpg" alt="desk" class="rounded-xl h-64 md:w-custom lg:w-97 xl:w-xl lg:h-97 xl:h-xl" />
         <!-- card 3 -->
         <img
           src="../static/img/couple.jpg"
           alt="desk"
-          class="rounded-xl h-64 hidden lg:block lg:w-97 lg:h-97 xl:w-xl xl:h-xl"
+          class="rounded-xl h-64 hidden md:block md:w-custom lg:w-97 lg:h-97 xl:w-xl xl:h-xl"
         />
       </div>
     </div>
-    <div class="flex flex-col gap-8 pt-8 bg-white lg:hidden">
+    <div class="flex flex-col gap-8 pt-8 bg-white md:hidden">
       <div class="px-6">
         <!-- card 3 -->
         <img

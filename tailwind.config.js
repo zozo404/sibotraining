@@ -32,7 +32,8 @@ module.exports = {
         97: '26rem',
         98: '44rem',
         99: '42rem',
-        'xl': '31rem'
+        'xl': '31rem',
+        'custom':'46%'
       },
       padding: {
         '17-top': '4.5rem'
