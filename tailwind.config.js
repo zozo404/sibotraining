@@ -43,7 +43,10 @@ module.exports = {
         interBold: ['InterBold', 'sans-serif'],
         interRegular: ['InterRegular', 'serif'],
         satoshi: ['Satoshi', 'sans-serif'],
-      }
+      },
+      screens: {
+        '3xl': '1600px',
+      },
     },
     variants: {
       extend: {}
