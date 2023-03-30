@@ -29,7 +29,7 @@
         </div>
       </div>
       <!-- all card -->
-      <div class="flex flex-col flex-wrap lg:flex-nowrap md:flex-row md:justify-center gap-8 lg:relative lg:bottom-8 items-center">
+      <div class="flex flex-col flex-wrap lg:flex-nowrap md:flex-row md:justify-center gap-8 lg:relative lg:bottom-8 items-center 3xl:gap-16">
         <!-- card 1 mobile-->
         <div class="bg-white py-7 px-6 rounded-xl lg:hidden md:w-1/2">
           <p class="text-xl">
@@ -63,7 +63,7 @@
         <img
           src="../static/img/couple.webp"
           alt="desk"
-          class="rounded-xl h-64"
+          class="rounded-xl h-64 my-0 mx-auto"
         />
       </div>
     </div>

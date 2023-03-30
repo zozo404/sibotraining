@@ -9,17 +9,17 @@
         @click="toggle"
         class="text-sm lg:flex gap-3 lg:py-8 hidden text-white"
       >
-        <nuxt-link to="#" class="flex items-center gap-2">
+        <div  class="flex items-center gap-2">
           <p>Services</p>
           <i class="fa-solid fa-caret-down"></i>
-        </nuxt-link>
-        <nuxt-link to="#">
+        </div>
+        <div >
           <p>Pricing</p>
-        </nuxt-link>
-        <nuxt-link to="#" class="flex items-center gap-2">
+        </div>
+        <div  class="flex items-center gap-2">
           <p>Company</p>
           <i class="fa-solid fa-caret-down"></i>
-        </nuxt-link>
+        </div>
       </div>
       <!-- add img with prismic -->
       <!-- <img :src="header.logo_sibo.url" alt="" /> -->
