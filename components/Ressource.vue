@@ -1,6 +1,6 @@
 <template>
   <div class="mt-96 px-6 lg:px-24 lg:mt-60">
-    <div class="flex flex-col items-center text-center pb-12 pt-8">
+    <div class="flex flex-col items-center text-center pb-12 pt-8 xl:pb-28 xl:pt-24">
       <p class="text-velour-50 satoshi">The All-in-One</p>
       <h2 class="text-3xl interBold">Solution for Rental Operators</h2>
       <p class="pt-4 text-gray-25 lg:w-98">
@@ -11,13 +11,13 @@
       </p>
     </div>
     <!-- card 1 -->
-    <div class="flex flex-col pb-16 lg:flex-row lg:justify-center gap-16 xl:gap-72">
+    <div class="flex flex-col pb-16 lg:flex-row lg:justify-center gap-16 xl:gap-40">
       <img
         src="../static/img/dashboard.PNG"
         alt="img"
         class="rounded-t-xl lg:w-96 xl:w-99"
       />
-      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/4">
+      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/2">
         <div class="flex justify-center items-center gap-6">
           <img
             src="../static/img/logo0.PNG"
@@ -44,13 +44,13 @@
       </div>
     </div>
     <!-- card 2 -->
-    <div class="flex flex-col pb-16 lg:flex-row-reverse lg:justify-center gap-16 xl:gap-72">
+    <div class="flex flex-col pb-16 lg:flex-row-reverse lg:justify-center gap-16 xl:gap-40">
       <img
         src="../static/img/branding.PNG"
         alt="img"
         class="rounded-t-xl lg:w-96 xl:w-99"
       />
-      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/4">
+      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/2">
         <div class="flex justify-center items-center gap-6">
           <img
             src="../static/img/logo0.PNG"
@@ -95,13 +95,13 @@
       </div>
     </div>
     <!-- card 3 -->
-    <div class="flex flex-col pb-24 lg:flex-row lg:justify-center gap-16 xl:gap-72">
+    <div class="flex flex-col pb-24 lg:flex-row lg:justify-center gap-16 xl:gap-40">
       <img
         src="../static/img/chat.PNG"
         alt="img"
         class="rounded-t-xl lg:w-96 xl:w-99"
       />
-      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/4">
+      <div class="lg:flex lg:flex-col lg:w-2/5 xl:w-1/2">
         <div class="flex justify-center items-center gap-6">
           <img
             src="../static/img/logo0.PNG"
